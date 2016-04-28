@@ -49,7 +49,12 @@ LOCAL_EXPORT_C_INCLUDES += $(LOCAL_PATH)/Soomla/rewards
 
 include $(BUILD_STATIC_LIBRARY)
 
+# Before cocos 3.10 merge
+# ifneq '$(COCOS2D_JAVASCRIPT)' ''
+# $(call import-module,soomla-cocos2dx-core)
+# else
+# $(call import-module,extensions/soomla-cocos2dx-core)
+# endif
 
 $(call import-module,../../soomla-cocos2dx-core)
-
 
