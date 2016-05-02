@@ -1482,6 +1482,7 @@
 					"$(SRCROOT)/../../soomla-cocos2dx-core/development/soomla-native/projects/cocos2dx-ios-core/CoreCocos2dx",
 					"$(SRCROOT)/../../soomla-cocos2dx-core/development/submodules/soomla-ios-core/SoomlaiOSCore/**",
 					"$(SRCROOT)/../build/ios/headers/**",
+					"$(SRCROOT)/submodules/ios-store/submodules/soomla-ios-core/SoomlaiOSCore/**",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
@@ -1518,6 +1519,7 @@
 					"$(SRCROOT)/../../soomla-cocos2dx-core/development/soomla-native/projects/cocos2dx-ios-core/CoreCocos2dx",
 					"$(SRCROOT)/../../soomla-cocos2dx-core/development/submodules/soomla-ios-core/SoomlaiOSCore/**",
 					"$(SRCROOT)/../build/ios/headers/**",
+					"$(SRCROOT)/submodules/ios-store/submodules/soomla-ios-core/SoomlaiOSCore/**",
 				);
 				LIBRARY_SEARCH_PATHS = "";
 				LINK_WITH_STANDARD_LIBRARIES = NO;
